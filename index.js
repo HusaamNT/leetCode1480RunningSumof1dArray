@@ -3,8 +3,8 @@ var runningSum = function(nums) {
     const numbers = nums.length;
     for(i=0; i<numbers; i++){
        j=nums[i]+j
+       console.log(j)
     }
-    console.log(j);
 
 };
 runningSum([1,2,3,4]);
